@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+    <style>
+        .button{
+        color: whitesmoke;
+        border: 1;
+        text-decoration: none;
+        display: inline-block;
+        font-family: verdana;
+        border-color: black;
+        }
+        .button:hover {
+        border: 1px;
+        border-color: floralwhite;
+        text-decoration: underline;
+        }
+        .myButton:active {
+        position:relative;
+        top:1px;
+}
+        .banner{
+        width: 100%;
+        height: 60px;
+        background-color:black;
+        position:fixed;
+        
+        }
+
+
+
+
+
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="banner">
+        <table align="center" style="color: whitesmoke;" cellspacing="10" bordercolor="white" border="0" width="1350">
+            <tr align="center">
+                <td width="200px" align="left"><img src="data:image/jpeg;base64,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" width="30" height="30">
+                <td width="100px"><a href="KerangkaBerpikirtulang.html" class="button">List Of Bones</a></td>
+                <td width="100px"><a href="KerangkaBerpikirOurModels.html" class="button">Our Models</td>
+                <td width="100px"><a href="KerangkaBerpikir3D.html" class="button">3D Models</a></td>
+            </tr>
+    </div>
+        </table>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 style="color:white" align="center">About Us</h1>
+        <hr width="1200" bgcolor="white">
+        <table width="1200px" style="color: white;" align="center" border="0" bordercolor="white">
+            <tr align="center">
+                <td width="350">
+                    <img src="C:\Users\cruel\OneDrive\Documents\Kerangka Berpikir\images\aboutus_devin.jpg" width="100%" height="350px">
+                </td>
+                <td>
+                    <h2>This is Devin Gerard Paskalius</h2>
+                </td>
+            </tr>
+        </table>
+        <table width="1200px" style="color: white;" align="center" border="0" bordercolor="white">
+            <tr align="center">
+                <td>
+                    <h2>This is Christopher Danson Xia</h2>
+                </td>
+                <td width="350">
+                    <img src="C:\Users\cruel\OneDrive\Documents\Kerangka Berpikir\images\kerangka berpikir icon.png" width="100%" height="350">
+                </td>
+            </tr>
+        </table>
+        <table width="1200px" style="color: white;" align="center" border="0" bordercolor="white">
+            <tr align="center">
+                <td width="350">
+                    <img src="C:\Users\cruel\OneDrive\Documents\Kerangka Berpikir\images\kerangka berpikir icon.png" width="100%" height="350">
+                </td>
+                <td>
+                    <h2>This is Felix Timbung Aglesias</h2>
+                </td>
+            </tr>
+        </table>
+        <table width="1200px" style="color: white;" align="center" border="0" bordercolor="white">
+            <tr align="center">
+                <td>
+                    <h2>This is Wilson Gunawan</h2>
+                </td>
+                <td width="350">>
+                    <img src="C:\Users\cruel\OneDrive\Documents\Kerangka Berpikir\images\kerangka berpikir icon.png" width="100%" height="350">
+                </td>
+            </tr>
+        </table>
+        <table width="1200px" style="color: white;" align="center" border="0" bordercolor="white">
+            <tr align="center">
+                <td width="350">
+                    <img src="C:\Users\cruel\OneDrive\Documents\Kerangka Berpikir\images\kerangka berpikir icon.png" width="100%" height="350">
+                </td>
+                <td>
+                    <h2>This is Evan Austin</h2>
+                </td>
+            </tr>
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
